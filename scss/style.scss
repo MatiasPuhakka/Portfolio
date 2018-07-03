@@ -1,0 +1,93 @@
+body {
+  font-family: 'Fira Sans', sans-serif;
+  margin: 0;
+  background: #fafafa;
+  height: auto;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin: 0 0 1rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+header {
+  background: #0a0a0a;
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+  color: #fff;
+
+  .text {
+    display: flex;
+    flex: 0 1 40vw;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    
+    h1,
+    h2 {
+      font-weight: 300;
+      margin: 0 0 1rem;
+    }
+
+    h2 {
+      color: #888;
+      font-weight: 300;
+      margin: 0 0 1rem;
+    }
+  }
+
+  .cello {
+    background: url('/img/cello90.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    flex: 0 1 60vw;
+    margin: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  header {
+    display: flex;
+    height: 100%;
+
+    .text {
+      height: 100vh;
+    }
+
+    .cello {
+      background: url('/img/cello0.png');
+      background-position: left;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+    }
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  margin: auto;
+  color: #333;
+
+  h3 {
+    font-size: 3rem;
+    margin-bottom: 0;
+  }
+}
