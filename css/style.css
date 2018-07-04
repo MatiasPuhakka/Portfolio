@@ -39,8 +39,8 @@ header {
       font-weight: 300;
       margin: 0 0 1rem; }
   header .cello {
-    background: url("/img/cello90.png");
-    background-position: center;
+    background: url("/img/cello90.jpg");
+    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     height: 70vh;
@@ -54,7 +54,7 @@ header {
     header .text {
       height: 100vh; }
     header .cello {
-      background: url("/img/cello0.png");
+      background: url("/img/cello0.jpg");
       background-position: left;
       background-size: cover;
       background-repeat: no-repeat;
